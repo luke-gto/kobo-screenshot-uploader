@@ -1,10 +1,10 @@
-## Kobo Screenshot Uploader
+# Kobo Screenshot Uploader
 
 This is a badly-written script that uploads your screenshots to your Telegram Bot.
 
 This script **NEEDS**  [NickelMenu](https://github.com/pgaskin/NickelMenu) to work.
 
-1. Extract the zip to the **root** folder of your Kobo
+1. Extract the [zip](https://github.com/luke-gto/kobo-screenshot-uploader/releases/) zip to the **root** folder of your Kobo
 
 2. Create a Telegram bot with [Bot Father](https://t.me/BotFather).
 
