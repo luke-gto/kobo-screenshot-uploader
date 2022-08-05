@@ -1,0 +1,2 @@
+menu_item       :main       :send_screenshots       :cmd_output     :5000:/mnt/onboard/.adds/screenshot_upload/send.sh
+
