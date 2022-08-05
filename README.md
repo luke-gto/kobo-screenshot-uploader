@@ -10,11 +10,11 @@ This script **NEEDS**  [NickelMenu](https://github.com/pgaskin/NickelMenu) to wo
 
 3. Copy and paste  the TOKEN in 
 
-      ```http://localhost:8888/callback/```
-
+	.adds/screenshot-upload/telegram.config
+	
 4. Copy and paste your Telegram Chat ID (you can ) in 
 
-      ```http://localhost:8888/callback/```
-
+	.adds/screenshot-upload/telegram.config
+	
 5. Open the NickelMenu and you should see the "send_screenshot" option. Tap on it in order to send your screenshots. Remember to have an internet connection ;) 
 
