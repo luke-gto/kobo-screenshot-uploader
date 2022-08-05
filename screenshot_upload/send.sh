@@ -52,7 +52,7 @@ if ! [ "$(ping -c1 8.8.8.8)" ]
 
                         else
 
-                            ./bin/rm $path$i
+                            ./bin/rm $i
                     fi
 
                 done
