@@ -7,7 +7,7 @@ SCRIPTPATH=$(dirname "$SCRIPT")
 
 source $SCRIPTPATH/telegram.config
 
-if [ -z "${TELEGRAM_BOT_TOKEN}" ] ||  [ -z "${CHAT_ID}" ] || [ `expr ${#TELEGRAM_BOT_TOKEN} + ${#CHAT_ID}` != 54 ];
+if [ -z "${TELEGRAM_BOT_TOKEN}" ] ||  [ -z "${CHAT_ID}" ];
 
     then
 
@@ -16,7 +16,7 @@ if [ -z "${TELEGRAM_BOT_TOKEN}" ] ||  [ -z "${CHAT_ID}" ] || [ `expr ${#TELEGRAM
 
 fi
 
-
+qndb -t 5000 -m wfmConnectWirelessSilently
 
 if ! [ "$(ping -c1 8.8.8.8)" ]
 
@@ -52,10 +52,14 @@ if ! [ "$(ping -c1 8.8.8.8)" ]
 
                         else
 
-                            ./bin/rm $i
+                            #./bin/rm $i
+                            qndb -m wfmSetAirplaneMode --disable
+                            qndb -m mwcToast 3000 "Screenshots successfully sent. Wi-Fi turned off."
                     fi
 
                 done
 
         fi
+
+
 fi
