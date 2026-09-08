@@ -1,5 +1,4 @@
-menu_item       :main       :send_screenshots       :cmd_output     :5000:/mnt/onboard/.adds/screenshot_upload/send.sh
-menu_item       :reader       :send_screenshots       :cmd_output     :5000:/mnt/onboard/.adds/screenshot_upload/send.sh
-menu_item       :library       :send_screenshots       :cmd_output     :5000:/mnt/onboard/.adds/screenshot_upload/send.sh
-menu_item       :browser       :send_screenshots       :cmd_output     :5000:/mnt/onboard/.adds/screenshot_upload/send.sh
-
+menu_item       :main       :send_screenshots       :cmd_output     :60000:/mnt/onboard/.adds/screenshot_upload/send.sh
+menu_item       :reader     :send_screenshots       :cmd_output     :60000:/mnt/onboard/.adds/screenshot_upload/send.sh
+menu_item       :library    :send_screenshots       :cmd_output     :60000:/mnt/onboard/.adds/screenshot_upload/send.sh
+menu_item       :browser    :send_screenshots       :cmd_output     :60000:/mnt/onboard/.adds/screenshot_upload/send.sh
